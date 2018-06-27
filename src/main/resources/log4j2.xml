@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="log-path">${sys:user.home}/documents/6TV_AddBlocksToPlayList/logs</Property>
+    </Properties>    
+    <Appenders>
+        <RollingFile name="RollingFile" fileName="${log-path}/app.log"
+                     filePattern="${log-path}/%d{yyyy-MM-dd}.log" >
+            <PatternLayout>
+                <pattern>%d{yyy-MM-dd HH:mm:ss} [%-5p] %c{4} - %m %rEx %n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+            <DefaultRolloverStrategy max="4"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
