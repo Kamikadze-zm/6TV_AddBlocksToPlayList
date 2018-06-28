@@ -1,0 +1,174 @@
+#Пути к папкам указываются с обратной косой чертой на конце
+
+#Обратная косая черта ставится два раза
+
+
+
+#Форматирование даты и времени: yyyy - год, MM - месяц (01-12), MMMM - название месяца в родительном падеже (Января), 
+#LLLL - название месяца в именительном падеже (Январь), dd - номер дня в месяце (01-31), HH - часы (00-23), mm - минуты (00-59), ss - секунды (00-59).
+#Подробнее про формат даты и времени: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+
+#Включить рекламных блоков. true - включить, false - нет
+on-ad-blocks=true
+
+#Включить вставку меток начала и конца рекламного блока, для таймера рекламы. true - включить, false - нет
+on-ad-marks=true
+
+#Включить вставку бегущей стрроки после рекламного блока. true - включить, false - нет
+on-ad-block-crawl-line=true
+
+#Включить вставку табака. true - включить, false - нет
+on-tobacco=true
+
+#Включить вставку бегущей строки - прочие. true - включить, false - нет
+on-crawl-line=true
+
+#Включить вставку анонсов-плашек. true - включить, false - нет
+on-announcement=true
+
+#Включить вставку задания для анонсера текущего фильма. true - включить, false - нет
+on-announcer-now=true
+
+#Включить вставку коммерческих плашек. true - включить, false - нет
+on-pop-up-ad=false
+
+#Включить вставку анонсов плашек на весь день. true - включить, false - нет
+on-all-day-announcements=false
+
+#Включить вставку второго трейлера. true - включить, false - нет
+on-second-trailer=true
+
+#Включить счетчик строк после рекламных блоков. true - включить, false - нет
+on-ad-blocks-crawl-line-counter = true;
+
+#Включить новостной рекламный блок. true - включить, false - нет
+on-news-ad-block=true
+
+#путь к папке с рекламными роликами
+
+ad-path=E:\\Реклама\\
+
+#путь к файлу рекламной открывашки
+
+ad-opener=E:\\Оформление\\bk_6TV_otkr_rek.mp4
+
+#путь к файлу рекламной закрывашки
+
+ad-closer=E:\\Оформление\\bk_6TV_zakr_rek.mp4
+
+#путь к папке для выбора расписания
+
+schedule-path=\\\\inc.settv.ru\\incoming\\
+
+
+#путь к папке для выбора эфирного листа 
+#в <№> будет подставлена отформатированная дата, указанная после соответствующего разделителя.
+#разделитель |
+#пробелы в начале и конце удаляются
+
+#пример: C:\\Эфирные листы\\<1>\\<2>\\ | LLLL | dd   для даты 29.03.17 Получится: C:\\Эфирные листы\\Март\\29\\
+
+ad-sheet-path=\\\\inc.settv.ru\\string\\6ТВ и СЭТ ТВ\\Эфирные листы\\
+
+
+
+#формат времени рекламных блоков (Допустимые значения: hh, mm, ss)
+
+ad-block-time-format=hh:mm
+
+
+
+#формат даты в названии расписания (Допустимые значения: yyyy, MM, dd)
+schedule-date-format=yyyy_MM_dd
+
+
+
+#название метки рекламного таймера
+ad-mark-name=AdMark
+
+
+#название титровального объекта - логотипа
+
+logo-name=Logo
+
+#Название титровального объекта - часы
+clock-name=Часы
+
+
+#путь к папке с трейлерами
+
+trailers-path=E:\\Оформление\\Anons\\
+
+
+
+#название титровального объекта - бегущей строки
+
+crawl-line-name=Бегучка
+
+#путь к файлу бегущей строки для 15 минутного блока
+crawl-line-15block-path=E:\\Строка\\<> 6ТВ коммерция.txt
+
+#путь к файлу бегущей строки для 45 минутного блока
+crawl-line-45block-path=E:\\Строка\\<> 6ТВ коммерция.txt
+
+#путь к файлу бегущей строки для остальных блоков
+crawl-line-other-block-path=E:\\Строка\\<> 6ТВ коммерция.txt
+
+#путь к файлу бегущей строки - прочие
+crawl-line-other-path=E:\\Строка\\<> 6ТВ прочие.txt
+
+#формат даты для вставки в бегущую строку
+
+crawl-line-date-format=yyyyMMdd
+
+
+
+#метка комментария анонса-плашки
+
+announcement-mark=#a
+
+#название титровального объекта для Табака
+tobacco-object-name=Табак
+
+#путь к файлу табака
+
+tobacco-path=E:\\Анонсы\\tabak.avi
+
+
+#название титровального объекта - анонсера текущего фильма
+announcer-now-name=AnnouncerNow
+
+#путь к файлу заданию анонсера текущего фильма в <> будет вставлена дата в таком же формате, как и в названии расписания
+announcer-now-path=E:\\Анонсер текущего фильма\\6tvAnnouncerTask_<>.txt
+
+#путь к файлу с исключениями для табака
+tobacco-exclusions=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\tabak.txt
+
+
+
+#путь к файлу с исключениями для бегушей строки - прочие
+crawl-line-exclusions=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\stroka.txt
+
+#путь к файлу с исключениями для строк, плашек (Детские программы, программы местные т.д.)
+full-exclusions=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\tut_nihrena_ne_stavitsya.txt
+
+#путь к файлу с названиями коммерческий плашек
+pop-up-ad-names-file=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\коммерческие плашки.txt
+
+#путь к папке с коммерческими плашками на сервере
+pop-up-ad-path=E:\\Анонсы\\
+
+#промежуток между коммерческой строкой и коммерческой плашкой, в секундах
+pop-up-ad-interval=10
+
+#случайно перемешивать коммерческие плашки. true - перемешивать, false - нет
+pop-up-ads-shuffle=false
+
+#путь к файлу с названиями анонсов-плашек на весь день
+all-day-announcements-file=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\плашки_на_весь_день.txt
+
+#Комментарий метка для вставки новостного рекламного блока (комментарий в расписании должен начинаться с этой метки)
+news-ad-block-comment=новости
+
+#Путь к файлу с названиями роликов для новостного рекламного блока
+news-ad-block-file=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\ролики_для_новостного_блока.txt

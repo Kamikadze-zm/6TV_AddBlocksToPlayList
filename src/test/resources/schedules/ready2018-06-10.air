@@ -1,0 +1,997 @@
+wait time 5:00:00.00 [5.00] active 10.06.18
+titleObjLoad {AnnouncerNow} 0 E:\Анонсер текущего фильма\6tvAnnouncerTask_2018_06_10.txt
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:12:55.00 E:\Июнь\12+\В мире животных с Н_Дроздовым_121.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:12:55.00> 0:12:55.00 E:\Июнь\12+\В мире животных с Н_Дроздовым_121.mpeg
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:12:55.50 E:\Июнь\12+\В мире животных с Н_Дроздовым_122.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:12:55.50> 0:12:55.50 E:\Июнь\12+\В мире животных с Н_Дроздовым_122.mpeg
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:12:56.50 E:\Июнь\12+\В мире животных с Н_Дроздовым_123.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:12:56.50> 0:12:56.50 E:\Июнь\12+\В мире животных с Н_Дроздовым_123.mpeg
+comment 0 
+comment 0 ----------- 06:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_1.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\lepka_200418_00_60.mp4
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\arlekin_ninja_280518_15.mp4
+movie 0:00:00.01 E:\Реклама\nem_okna4_280518_20.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie <0:00:00.00> 0:10:36.33 E:\Июнь\16+\Euromaxx_104.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:36.32> 0:13:26.20 E:\Июнь\16+\Euromaxx_104.mpeg
+comment 0 ----------- 06:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_2.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_170518_20.mp4
+movie 0:00:00.01 E:\Реклама\Evrosvet_080416_60.mpg
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:00.01 E:\Реклама\arlekin_4etazh_240418_15.mp4
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:24:02.56> 0:07:46.44 E:\Июнь\16+\Euromaxx_104.mpeg
+comment 0 
+comment 0 НОВОСТИ+
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\dental_studio_190717_60.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:02:50.16 E:\Программы местные\Программы местные 1\pogoda_den_100618_02_50.mpg
+comment 0 
+comment 0 ----------- 07:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_3.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\Evrosvet_151211_05.avi
+movie 0:00:00.01 E:\Реклама\mega_pro_divan_250518_10.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:00.01 E:\Реклама\luna_180518_15.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:00.01 E:\Реклама\csk_040418_60.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie 0:09:15.72 E:\Программы местные\Программы местные 2\smotrite_ktofx_060618_09.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:03:18.08 E:\Программы местные\Программы местные 1\martin_090618_03_18.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:02:50.16 E:\Программы местные\Программы местные 1\pogoda_den_100618_02_50.mpg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:09:44.72 E:\Июнь\16+\Нинель Мышкова До и после Гадюки.mpeg
+comment 0 ----------- 07:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_4.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\lepka_200418_00_60.mp4
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\nem_okna4_280518_20.mpg
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\intur_ekip_270415_10.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:09:44.72> 0:12:09.76 E:\Июнь\16+\Нинель Мышкова До и после Гадюки.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:21:54.48> 0:10:15.84 E:\Июнь\16+\Нинель Мышкова До и после Гадюки.mpeg
+comment 0 ----------- 08:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_5.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\bk_100418_60.mp4
+movie 0:00:00.01 E:\Реклама\nem_okna2_200418_20.mp4
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\arlekin_ninja_280518_15.mp4
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:32:10.36> 0:11:38.64 E:\Июнь\16+\Нинель Мышкова До и после Гадюки.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:11:08.25 E:\Июнь\16+\Хирург от бога_ Пирогов.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:11:08.24> 0:08:10.20 E:\Июнь\16+\Хирург от бога_ Пирогов.mpeg
+comment 0 ----------- 08:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_1.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosv_130418_60.mp4
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\global_skoro_leto_fx_050418_8.mp4
+movie 0:00:00.01 E:\Реклама\umno_jit_5let_240518_15.avi
+movie 0:00:00.01 E:\Реклама\dental_st_230817_15.mp4
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:19:18.48> 0:14:06.28 E:\Июнь\16+\Хирург от бога_ Пирогов.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:33:24.75> 0:11:08.25 E:\Июнь\16+\Хирург от бога_ Пирогов.mpeg
+comment 0 
+comment 0 ----------- 09:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_2.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\menar_070318_60.mpg
+movie 0:00:00.01 E:\Реклама\arlekin_lager_080518_15.mp4
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:00.01 E:\Реклама\luna_180518_15.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie <0:00:00.00> 0:10:36.33 E:\Июнь\16+\Euromaxx_104.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:36.32> 0:13:26.20 E:\Июнь\16+\Euromaxx_104.mpeg
+comment 0 ----------- 09:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_3.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosv_130418_60.mp4
+movie 0:00:00.01 E:\Реклама\mega_pro_divan_250518_10.avi
+movie 0:00:00.01 E:\Реклама\tefi_region_010618_20.mp4
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:24:02.56> 0:07:46.44 E:\Июнь\16+\Euromaxx_104.mpeg
+comment 0 
+comment 0 НОВОСТИ+
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\dental_studio_190717_60.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:02:50.16 E:\Программы местные\Программы местные 1\pogoda_den_100618_02_50.mpg
+comment 0 
+comment 0 ----------- 10:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_4.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_170518_20.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_260315_60.avi
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:00.01 E:\Реклама\vibory_osen_guber_080618_12.mp4
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie 0:24:41.72 E:\Программы местные\Программы местные 1\kuchia_fx_070618_24_42.mp4
+comment 0 
+comment 0 ----------- 10:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_5.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\lepka_200418_00_60.mp4
+movie 0:00:00.01 E:\Реклама\mega_pro_divan_250518_10.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\arlekin_lager_080518_15.mp4
+movie 0:00:00.01 E:\Реклама\global_skoro_leto_fx_050418_8.mp4
+movie 0:00:00.01 E:\Реклама\Bilyard_211113_10.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+comment 0 # 16+
+comment 0 
+movie 0:04:48.32 E:\Программы местные\Детская студия\det_st_280518_04_48.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:09:15.72 E:\Программы местные\Программы местные 2\smotrite_ktofx_060618_09.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:03:18.08 E:\Программы местные\Программы местные 1\martin_090618_03_18.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:12:56.00 E:\Программы местные\Программы местные 1\cinematika_080618_12_56.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:02:50.16 E:\Программы местные\Программы местные 1\pogoda_den_100618_02_50.mpg
+comment 0 
+comment 0 ----------- 11:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_1.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\Evrosvet_151211_05.avi
+movie 0:00:00.01 E:\Реклама\dental_studio_190717_60.mpg
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:00.01 E:\Реклама\arlekin_4etazh_240418_15.mp4
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie <0:00:00.00> 0:10:54.87 E:\Июнь\12+\В лесах и на горах_16.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:54.88> 0:09:11.48 E:\Июнь\12+\В лесах и на горах_16.mpeg
+comment 0 ----------- 11:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_2.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\luna_180518_15.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\sportintur_deti_260117_10.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:00.01 E:\Реклама\csk_040418_60.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:20:06.36> 0:12:38.24 E:\Июнь\12+\В лесах и на горах_16.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:32:44.61> 0:10:54.87 E:\Июнь\12+\В лесах и на горах_16.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:06:48.44 E:\Июнь\12+\В лесах и на горах_17.mpeg
+comment 0 ----------- 12:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_3.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\menar_070318_60.mpg
+movie 0:00:00.01 E:\Реклама\therr_maitz_velic_300518_15.mp4
+movie 0:00:00.01 E:\Реклама\nem_okna4_280518_20.mpg
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\arlekin_ninja_280518_15.mp4
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:06:48.48> 0:15:20.04 E:\Июнь\12+\В лесах и на горах_17.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:22:08.52> 0:09:33.52 E:\Июнь\12+\В лесах и на горах_17.mpeg
+comment 0 ----------- 12:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_4.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\bk_100418_60.mp4
+movie 0:00:00.01 E:\Реклама\dental_st_230817_15.mp4
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:00.01 E:\Реклама\umno_jit_5let_240518_15.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:31:42.08> 0:12:34.96 E:\Июнь\12+\В лесах и на горах_17.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:10:51.52 E:\Июнь\12+\В лесах и на горах_18.mpeg
+comment 0 ----------- 13:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_5.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosv_130418_60.mp4
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\vibory_osen_guber_080618_12.mp4
+movie 0:00:00.01 E:\Реклама\arlekin_lager_080518_15.mp4
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:10:51.56> 0:11:07.64 E:\Июнь\12+\В лесах и на горах_18.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:21:59.20> 0:11:22.96 E:\Июнь\12+\В лесах и на горах_18.mpeg
+comment 0 ----------- 13:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_1.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_170518_20.mp4
+movie 0:00:00.01 E:\Реклама\lepka_200418_00_60.mp4
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:00.01 E:\Реклама\umno_jit_5let_240518_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:33:22.16> 0:10:36.24 E:\Июнь\12+\В лесах и на горах_18.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:10:56.47 E:\Июнь\12+\В лесах и на горах_19.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:56.48> 0:10:43.52 E:\Июнь\12+\В лесах и на горах_19.mpeg
+comment 0 ----------- 14:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_2.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\Evrosvet_151211_05.avi
+movie 0:00:00.01 E:\Реклама\Evrosvet_080416_60.mpg
+movie 0:00:00.01 E:\Реклама\nem_okna4_280518_20.mpg
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\Bilyard_211113_10.avi
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:21:40.04> 0:11:09.36 E:\Июнь\12+\В лесах и на горах_19.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:32:49.41> 0:10:56.47 E:\Июнь\12+\В лесах и на горах_19.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:09:11.32 E:\Июнь\12+\В лесах и на горах_20.mpeg
+comment 0 ----------- 14:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_3.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\dental_studio_190717_60.mpg
+movie 0:00:00.01 E:\Реклама\luna_180518_15.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\global_skoro_leto_fx_050418_8.mp4
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:09:11.32> 0:12:54.48 E:\Июнь\12+\В лесах и на горах_20.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:22:05.80> 0:08:38.36 E:\Июнь\12+\В лесах и на горах_20.mpeg
+comment 0 ----------- 15:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_4.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\lepka_200418_00_60.mp4
+movie 0:00:00.01 E:\Реклама\nem_okna2_200418_20.mp4
+movie 0:00:00.01 E:\Реклама\therr_maitz_velic_300518_15.mp4
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\arlekin_4etazh_240418_15.mp4
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:30:44.20> 0:13:27.40 E:\Июнь\12+\В лесах и на горах_20.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:10:33.20 E:\Июнь\12+\В лесах и на горах_21.mpeg
+comment 0 ----------- 15:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_5.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_260315_60.avi
+movie 0:00:00.01 E:\Реклама\arlekin_lager_080518_15.mp4
+movie 0:00:00.01 E:\Реклама\luna_180518_15.avi
+movie 0:00:00.01 E:\Реклама\vibory_osen_guber_080618_12.mp4
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:10:33.24> 0:11:52.24 E:\Июнь\12+\В лесах и на горах_21.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:22:25.50> 0:11:12.75 E:\Июнь\12+\В лесах и на горах_21.mpeg
+movie <0:33:38.25> 0:11:12.75 E:\Июнь\12+\В лесах и на горах_21.mpeg
+comment 0 
+comment 0 ----------- 16:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_1.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\intour_bass_300916_10.avi
+movie 0:00:00.01 E:\Реклама\therr_maitz_velic_300518_15.mp4
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:00.01 E:\Реклама\mega_pro_divan_250518_10.avi
+movie 0:00:00.01 E:\Реклама\csk_040418_60.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie 0:02:50.16 E:\Программы местные\Программы местные 1\pogoda_den_100618_02_50.mpg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:10:04.40 E:\Июнь\16+\Одна миллиардная доля.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:04.40> 0:09:42.36 E:\Июнь\16+\Одна миллиардная доля.mpeg
+comment 0 ----------- 16:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_2.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\bk_100418_60.mp4
+movie 0:00:00.01 E:\Реклама\global_skoro_leto_fx_050418_8.mp4
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:00.01 E:\Реклама\intour_bass_300916_10.avi
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:19:46.80> 0:10:26.40 E:\Июнь\16+\Одна миллиардная доля.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:30:13.20> 0:10:54.12 E:\Июнь\16+\Одна миллиардная доля.mpeg
+comment 0 ----------- 17:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_3.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\menar_070318_60.mpg
+movie 0:00:00.01 E:\Реклама\luna_180518_15.avi
+movie 0:00:00.01 E:\Реклама\nem_okna2_200418_20.mp4
+movie 0:00:00.01 E:\Реклама\global_skoro_leto_fx_050418_8.mp4
+movie 0:00:00.01 E:\Реклама\dental_st_230817_15.mp4
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:41:07.36> 0:09:14.64 E:\Июнь\16+\Одна миллиардная доля.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:50:22.00> 0:10:04.40 E:\Июнь\16+\Одна миллиардная доля.mpeg
+movie <1:00:26.40> 0:10:20.40 E:\Июнь\16+\Одна миллиардная доля.mpeg
+comment 0 ----------- 17:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_4.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosv_130418_60.mp4
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:00.01 E:\Реклама\arlekin_ninja_280518_15.mp4
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <1:10:46.80> 0:09:48.40 E:\Июнь\16+\Одна миллиардная доля.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <1:20:35.20> 0:10:04.40 E:\Июнь\16+\Одна миллиардная доля.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:02:32.68 E:\Программы местные\Программы местные 1\pogoda_vecer_100618_02_33.mpg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:09:36.40 E:\Июнь\16+\Химия нашего тела_ Витамины.mpeg
+comment 0 ----------- 18:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_5.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_170518_20.mp4
+movie 0:00:00.01 E:\Реклама\bk_100418_60.mp4
+movie 0:00:00.01 E:\Реклама\vibory_osen_guber_080618_12.mp4
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:00.01 E:\Реклама\arlekin_lager_080518_15.mp4
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:09:36.40> 0:11:50.08 E:\Июнь\16+\Химия нашего тела_ Витамины.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:21:26.48> 0:10:35.60 E:\Июнь\16+\Химия нашего тела_ Витамины.mpeg
+comment 0 ----------- 18:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_1.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\mega_pro_divan_250518_10.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\arlekin_4etazh_240418_15.mp4
+movie 0:00:00.01 E:\Реклама\intur_ekip_270415_10.avi
+movie 0:00:00.01 E:\Реклама\umno_jit_5let_240518_15.avi
+movie 0:00:00.01 E:\Реклама\csk_040418_60.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:32:02.12> 0:10:50.84 E:\Июнь\16+\Химия нашего тела_ Витамины.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:11:14.56 E:\Июнь\16+\Химия нашего тела_ Сахар.mpeg
+comment 0 ----------- 19:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_2.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_260315_60.avi
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\arlekin_lager_080518_15.mp4
+movie 0:00:00.01 E:\Реклама\intur_ekip_270415_10.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:11:14.56> 0:10:44.40 E:\Июнь\16+\Химия нашего тела_ Сахар.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:21:58.96> 0:10:59.48 E:\Июнь\16+\Химия нашего тела_ Сахар.mpeg
+movie <0:32:58.44> 0:10:59.48 E:\Июнь\16+\Химия нашего тела_ Сахар.mpeg
+comment 0 
+comment 0 ----------- 19:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_3.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\menar_070318_60.mpg
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:00.01 E:\Реклама\luna_180518_15.avi
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie 0:02:32.68 E:\Программы местные\Программы местные 1\pogoda_vecer_100618_02_33.mpg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:12:56.00 E:\Программы местные\Программы местные 1\cinematika_080618_12_56.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:09:15.72 E:\Программы местные\Программы местные 2\smotrite_ktofx_060618_09.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:03:18.08 E:\Программы местные\Программы местные 1\martin_090618_03_18.mp4
+comment 0 
+comment 0 ----------- 20:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_4.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\csk_040418_60.mpg
+movie 0:00:00.01 E:\Реклама\vibory_osen_guber_080618_12.mp4
+movie 0:00:00.01 E:\Реклама\global_skoro_leto_fx_050418_8.mp4
+movie 0:00:00.01 E:\Реклама\nem_okna4_280518_20.mpg
+movie 0:00:00.01 E:\Реклама\dental_st_230817_15.mp4
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie 0:24:41.72 E:\Программы местные\Программы местные 1\kuchia_fx_070618_24_42.mp4
+comment 0 
+comment 0 ----------- 20:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_5.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\Evrosvet_151211_05.avi
+movie 0:00:00.01 E:\Реклама\lepka_200418_00_60.mp4
+movie 0:00:00.01 E:\Реклама\therr_maitz_velic_300518_15.mp4
+movie 0:00:00.01 E:\Реклама\arlekin_4etazh_240418_15.mp4
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie <0:00:00.00> 0:10:57.00 E:\Июнь\16+\Семь смертных грехов_01 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:57.00> 0:11:08.36 E:\Июнь\16+\Семь смертных грехов_01 16x9.mpeg
+comment 0 ----------- 21:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_1.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\bk_100418_60.mp4
+movie 0:00:00.01 E:\Реклама\therr_maitz_velic_300518_15.mp4
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:22:05.36> 0:10:45.64 E:\Июнь\16+\Семь смертных грехов_01 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:32:51.00> 0:10:34.64 E:\Июнь\16+\Семь смертных грехов_01 16x9.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:09:50.72 E:\Июнь\16+\Семь смертных грехов_02 16x9.mpeg
+comment 0 ----------- 21:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_2.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\arlekin_lager_080518_15.mp4
+movie 0:00:00.01 E:\Реклама\dental_st_230817_15.mp4
+movie 0:00:00.01 E:\Реклама\sportintur_deti_260117_10.avi
+movie 0:00:00.01 E:\Реклама\umno_jit_5let_240518_15.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:00.01 E:\Реклама\csk_040418_60.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:09:50.76> 0:10:02.24 E:\Июнь\16+\Семь смертных грехов_02 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:19:53.00> 0:10:49.28 E:\Июнь\16+\Семь смертных грехов_02 16x9.mpeg
+comment 0 ----------- 22:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_3.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_260315_60.avi
+movie 0:00:00.01 E:\Реклама\mega_pro_divan_250518_10.avi
+movie 0:00:00.01 E:\Реклама\martin_vibor_250518_10.avi
+movie 0:00:00.01 E:\Реклама\arlekin_ninja_280518_15.mp4
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:00.01 E:\Реклама\intour_bass_300916_10.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:30:42.32> 0:09:03.68 E:\Июнь\16+\Семь смертных грехов_02 16x9.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:11:15.35 E:\Июнь\16+\Перевозчик_07 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:11:15.36> 0:10:56.24 E:\Июнь\16+\Перевозчик_07 16x9.mpeg
+comment 0 ----------- 22:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_4.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\menar_070318_60.mpg
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\nem_okna2_200418_20.mp4
+movie 0:00:00.01 E:\Реклама\amurel_290915_15.avi
+movie 0:00:00.01 E:\Реклама\alpari_utkin_240418_5.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:22:11.64> 0:11:34.40 E:\Июнь\16+\Перевозчик_07 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:33:46.05> 0:11:15.35 E:\Июнь\16+\Перевозчик_07 16x9.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:08:39.03 E:\Июнь\16+\Перевозчик_08 16x9.mpeg
+comment 0 ----------- 23:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_5.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_3.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\evrosvet_170518_20.mp4
+movie 0:00:00.01 E:\Реклама\Evrosvet_080416_60.mpg
+movie 0:00:00.01 E:\Реклама\arlekin_4etazh_240418_15.mp4
+movie 0:00:00.01 E:\Реклама\global_skoro_leto_fx_050418_8.mp4
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:08:39.08> 0:14:08.92 E:\Июнь\16+\Перевозчик_08 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:22:48.00> 0:10:12.64 E:\Июнь\16+\Перевозчик_08 16x9.mpeg
+comment 0 ----------- 23:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_1.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_4.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\bk_100418_60.mp4
+movie 0:00:00.01 E:\Реклама\therr_maitz_velic_300518_15.mp4
+movie 0:00:00.01 E:\Реклама\vibory_osen_guber_080618_12.mp4
+movie 0:00:00.01 E:\Реклама\nem_okna4_280518_20.mpg
+movie 0:00:00.01 E:\Реклама\ass_280518_15.mpg
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:33:00.68> 0:12:35.32 E:\Июнь\16+\Перевозчик_08 16x9.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:02:32.68 E:\Программы местные\Программы местные 1\pogoda_vecer_100618_02_33.mpg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:12:56.00 E:\Программы местные\Программы местные 1\cinematika_080618_12_56.mp4
+comment 0 
+comment 0 ----------- 24:15
+movie 0:01:00.00 E:\Оформление\Anons\anons1_2.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_1.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\lepka_200418_00_60.mp4
+movie 0:00:00.01 E:\Реклама\umno_jit_5let_240518_15.avi
+movie 0:00:00.01 E:\Реклама\singapur_220617_20.mpg
+movie 0:00:00.01 E:\Реклама\luna_180518_15.avi
+movie 0:00:00.01 E:\Реклама\Bilyard_211113_10.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+comment 0 # 16+
+comment 0 
+movie <0:00:00.00> 0:10:55.75 E:\Июнь\16+\Людмила Зыкина Бриллианты одиночества 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:55.76> 0:10:40.88 E:\Июнь\16+\Людмила Зыкина Бриллианты одиночества 16x9.mpeg
+comment 0 ----------- 24:45
+movie 0:01:00.00 E:\Оформление\Anons\anons1_3.avi
+movie 0:01:00.00 E:\Оформление\Anons\anons2_2.avi
+titleObjOff {Часы} 0:00:00.04 [0.04]
+titleObjOff {Logo} 0:00:00.04 [0.04]
+markstart {AdMark} 0 Начало рекламного блока
+movie 0:00:04.00 E:\Оформление\bk_6TV_otkr_rek.mp4
+movie 0:00:00.01 E:\Реклама\Evrosvet_151211_05.avi
+movie 0:00:00.01 E:\Реклама\Evrosvet_080416_60.mpg
+movie 0:00:00.01 E:\Реклама\arlekin_4etazh_240418_15.mp4
+movie 0:00:00.01 E:\Реклама\therr_maitz_velic_300518_15.mp4
+movie 0:00:00.01 E:\Реклама\global_skoro_leto_fx_050418_8.mp4
+movie 0:00:00.01 E:\Реклама\tdintur_110518_15.avi
+movie 0:00:04.00 E:\Оформление\bk_6TV_zakr_rek.mp4
+markstop {AdMark} 0 Конец рекламного блока
+titleObjOn {Logo} 0:00:00.04 [0.04]
+titleObjOn {Часы} 0:00:00.04 [0.04]
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ коммерция.txt
+comment 0 # 16+
+movie <0:21:36.64> 0:11:10.60 E:\Июнь\16+\Людмила Зыкина Бриллианты одиночества 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:32:47.25> 0:10:55.75 E:\Июнь\16+\Людмила Зыкина Бриллианты одиночества 16x9.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:10:22.00 E:\Июнь\12+\Анатолий Кузнецов Сухов навсегда 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:22.00> 0:10:22.00 E:\Июнь\12+\Анатолий Кузнецов Сухов навсегда 16x9.mpeg
+movie <0:20:44.00> 0:10:22.00 E:\Июнь\12+\Анатолий Кузнецов Сухов навсегда 16x9.mpeg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:31:06.00> 0:10:22.00 E:\Июнь\12+\Анатолий Кузнецов Сухов навсегда 16x9.mpeg
+movie <0:41:28.00> 0:10:22.00 E:\Июнь\12+\Анатолий Кузнецов Сухов навсегда 16x9.mpeg
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie 0:03:18.08 E:\Программы местные\Программы местные 1\martin_090618_03_18.mp4
+comment 0 
+titleObjLoad {Табак} (0:00:05.00) E:\Анонсы\tabak.avi
+movie <0:00:00.00> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:10:22.11> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+movie <0:20:44.22> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:31:06.33> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+movie <0:41:28.44> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <0:51:50.55> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+movie <1:02:12.66> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+titleObjLoad {Бегучка} (0:00:00.01) E:\Строка\20180610 6ТВ прочие.txt
+movie <1:12:34.77> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+movie <1:22:56.88> 0:10:22.11 E:\Июнь\18+\Кома.mpg
+comment 0 
+comment 0 
+comment 0 МУЗЫКА 3:30
+titleObjLoad {Табак} 0:00:06.04 E:\Анонсы\tabak.avi
+movie 0:00:28.96 E:\Оформление\otkr_100.mp4
+movie 0:05:07.09 E:\Music_16x9\Sia - Elastic Heart.mp4
+movie 0:05:18.69 E:\Music_16x9\One Direction - Steal My Girl.mp4
+movie 0:03:50.06 E:\Music_16x9\Demi Lovato - Let It go.mp4
+movie 0:03:50.85 E:\Music_16x9\Bastille - Of The Night.mp4
+movie 0:03:52.44 E:\Music_16x9\Stromae - Papaoutai.mp4
+movie 0:03:52.23 E:\Music_16x9\Keshia Chante_Shooting Star.mp4
+movie 0:03:53.64 E:\Music_16x9\A`Studio & Tomas — Falling For You.mp4
+movie 0:03:56.57 E:\Music_16x9\The Partysquad - Body Language.mp4
+movie 0:04:03.82 E:\Music_16x9\Naughty Boy - La La La.mp4
+movie 0:04:04.24 E:\Music_16x9\Rock Mafia - The Big Bang.mp4
+movie 0:04:12.54 E:\Music_16x9\David Pop - Music is power.mp4
+movie 0:04:43.07 E:\Music_16x9\OneRepublic - Counting Stars.mp4
+movie 0:04:39.98 E:\Music_16x9\Depeche Mode - Enjoy The Silence.mp4
+movie 0:04:35.35 E:\Music_16x9\Nicki Minaj - Fly ft. Rihanna.mp4
+movie 0:03:09.89 E:\Music_16x9\Meghan Trainor - All About That Bass.mp4
+movie 0:04:04.24 E:\Music_16x9\Rock Mafia - The Big Bang.mp4
+movie 0:04:09.04 E:\Music_16x9\Bad Meets Evil - Fast Lane.mp4
+movie 0:04:09.12 E:\Music_16x9\Ellie Goulding - Love Me Like You Do.mp4
+movie 0:04:10.87 E:\Music_16x9\Ariana Grande, The Weeknd - Love Me Harder.mp4
+movie 0:00:28.88 E:\Оформление\zakr_100.mp4
+comment 0 
+comment 0 
+picture 0 E:\Оформление\PAL HD Color Bars.png
+switch shedule
+comment 0 
