@@ -9,7 +9,6 @@ import java.io.InputStreamReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -36,8 +35,6 @@ import ru.kamikadze_zm.addblockstoplaylistcore.settings.SettingsException;
 import ru.kamikadze_zm.addblockstoplaylistcore.util.FileUtils;
 import ru.kamikadze_zm.onair.Parser;
 import ru.kamikadze_zm.onair.command.Command;
-import ru.kamikadze_zm.onair.command.Command.CommandKey;
-import ru.kamikadze_zm.onair.command.Comment;
 
 public class AppTest {
 
@@ -111,59 +108,6 @@ public class AppTest {
                 parameters.put(date.getTime(), p);
             } catch (ParseException | IOException e) {
                 throw new RuntimeException(e.getMessage());
-            }
-        }
-    }
-
-    @Test
-    public void testCompatibilityWithVersion_2_11() {
-
-        for (Map.Entry<Long, List<Command>> e : schedules.entrySet()) {
-            Long key = e.getKey();
-            AdBlocks adBlocks = adSheets.get(key);
-            Date date = new Date(key);
-            Parameters p = parameters.get(key);
-            List<ScheduleProcessor> scheduleProcessors = new ArrayList<>();
-            if (settings.onAdBlocks) {
-                scheduleProcessors.add(new AdBlocksInserter(settings, adBlocks, date, p));
-            }
-            if (settings.onNewsAdBlock) {
-                Calendar calendar = Calendar.getInstance();
-                calendar.set(2018, 5, 26, 23, 59, 59); //с 27 нет новостных рекламных блоков
-                if (date.before(calendar.getTime())) {
-                    scheduleProcessors.add(new NewsAdBlocksInserter(settings));
-                }
-            }
-            if (settings.onTobacco) {
-                scheduleProcessors.add(new TobaccoInserter(settings, p));
-            }
-            if (settings.onCrawlLine) {
-                scheduleProcessors.add(new CrawlLineInserter(settings, p, date));
-            }
-            if (settings.onAnnouncerNow) {
-                scheduleProcessors.add(new AnnouncerNowInserter(settings, date));
-            }
-            ScheduleProcessingManager spm = new ScheduleProcessingManager(e.getValue());
-            List<Command> processedSchedule = spm.processSchedule(scheduleProcessors);
-
-            List<String> readySchedule = readySchedules.get(key);
-            System.out.println("testing " + sdf.format(date));
-            if (processedSchedule.size() != readySchedule.size()) {
-                String fileName = SCHEDULES_FOLDER + "processed" + sdf.format(date) + ".air";
-                saveScheduleToFile(fileName, processedSchedule);
-                fail("Size not match. Date: " + sdf.format(date)
-                        + ", processedSchedule size: " + processedSchedule.size()
-                        + ", readySchedule size: " + readySchedule.size());
-            }
-
-            for (int i = 0; i < processedSchedule.size(); i++) {
-                Command c = processedSchedule.get(i);
-                String newsPrefix = "--- ";
-                if (CommandKey.COMMENT == c.getCommandKey()
-                        && ((Comment) c).getComment().toLowerCase().startsWith(newsPrefix + settings.getParameter(SettingsKeys.NEWS_AD_BLOCK_COMMENT))) {
-                    c = new Comment(((Comment) c).getComment().replace(newsPrefix, ""), true);
-                }
-                assertEquals(readySchedule.get(i), c.toSheduleRow());
             }
         }
     }
