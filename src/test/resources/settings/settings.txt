@@ -155,18 +155,18 @@ announcer-now-name=AnnouncerNow
 announcer-now-path=E:\\Анонсер текущего фильма\\6tvAnnouncerTask_<>.txt
 
 #путь к файлу с исключениями для табака
-tobacco-exclusions=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\tabak.txt
+tobacco-exclusions=target\\test-classes\\settings\\tabak.txt
 
 
 
 #путь к файлу с исключениями для бегушей строки - прочие
-crawl-line-exclusions=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\stroka.txt
+crawl-line-exclusions=target\\test-classes\\settings\\stroka.txt
 
 #путь к файлу с исключениями для строк, плашек (Детские программы, программы местные т.д.)
-full-exclusions=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\tut_nihrena_ne_stavitsya.txt
+full-exclusions=target\\test-classes\\settings\\tut_nihrena_ne_stavitsya.txt
 
 #путь к файлу с названиями коммерческий плашек
-pop-up-ad-names-file=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\коммерческие плашки.txt
+pop-up-ad-names-file=target\\test-classes\\settings\\коммерческие плашки.txt
 
 #путь к папке с коммерческими плашками на сервере
 pop-up-ad-path=E:\\Анонсы\\
@@ -178,10 +178,16 @@ pop-up-ad-interval=10
 pop-up-ads-shuffle=false
 
 #путь к файлу с названиями анонсов-плашек на весь день
-all-day-announcements-file=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\плашки_на_весь_день.txt
+all-day-announcements-file=target\\test-classes\\settings\\плашки_на_весь_день.txt
 
 #Комментарий метка для вставки новостного рекламного блока (комментарий в расписании должен начинаться с этой метки)
 news-ad-block-comment=новости
 
 #Путь к файлу с названиями роликов для новостного рекламного блока
-news-ad-block-file=C:\\Users\\1234\\Documents\\NetBeansProjects\\6TV_AddBlocksToPlayList\\target\\test-classes\\settings\\ролики_для_новостного_блока.txt
+news-ad-block-file=target\\test-classes\\settings\\ролики_для_новостного_блока.txt
+
+#Путь к файлу новостной рекламной открывашки
+news-ad-block-opener=E:\\Оформление\\6tv_zima_otkr.mp4
+
+#Путь к файлу новостной рекламной закрывашки
+news-ad-block-closer=E:\\Оформление\\6tv_zima_zakr.mp4
