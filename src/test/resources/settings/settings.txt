@@ -134,7 +134,8 @@ crawl-line-other-path=E:\\Строка\\<> 6ТВ прочие.txt
 
 crawl-line-date-format=yyyyMMdd
 
-
+#кол-во пропускаемых частей фильма между прочей бегущей строкой. Поддерживаемые значения: 0, 1, 2 (по умолчанию - 1)
+crawl-line-other-number-skipping-parts=0
 
 #метка комментария анонса-плашки
 

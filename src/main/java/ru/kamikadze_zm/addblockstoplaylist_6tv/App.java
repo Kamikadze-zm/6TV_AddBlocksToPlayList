@@ -70,7 +70,7 @@ public class App {
     public void run() {
         loadSchedule();
 
-        if (settings.onAdBlocks) {
+        if (settings.getBoolParameter(SettingsKeys.ON_AD_BLOCKS)) {
             String sheetPath = formAdSheetPath();
             loadAdSheet(sheetPath);
         }
@@ -90,19 +90,19 @@ public class App {
 
     private List<ScheduleProcessor> createScheduleProcessors() {
         List<ScheduleProcessor> sps = new ArrayList<>(5);
-        if (settings.onAdBlocks) {
+        if (settings.getBoolParameter(SettingsKeys.ON_AD_BLOCKS)) {
             sps.add(new AdBlocksInserter(settings, adBlocks, scheduleDate, parameters));
         }
-        if (settings.onNewsAdBlock) {
+        if (settings.getBoolParameter(SettingsKeys.ON_NEWS_AD_BLOCK)) {
             sps.add(new NewsAdBlocksInserter(settings));
         }
-        if (settings.onTobacco) {
+        if (settings.getBoolParameter(SettingsKeys.ON_TOBACCO)) {
             sps.add(new TobaccoInserter(settings, parameters));
         }
-        if (settings.onCrawlLine) {
+        if (settings.getBoolParameter(SettingsKeys.ON_CRAWL_LINE)) {
             sps.add(new CrawlLineInserter(settings, parameters, scheduleDate));
         }
-        if (settings.onAnnouncerNow) {
+        if (settings.getBoolParameter(SettingsKeys.ON_ANNOUNCER_NOW)) {
             sps.add(new AnnouncerNowInserter(settings, scheduleDate));
         }
         return sps;
@@ -189,14 +189,14 @@ public class App {
         }
 
         //кол-во анонсов-трейлеров
-        if (settings.onAdBlocks) {
+        if (settings.getBoolParameter(SettingsKeys.ON_AD_BLOCKS)) {
             parameters.setTrailersNumber(showTrailersDialog("Кол-во чередующихся анонсов-трейлеров (число >= 1)", parameters.getTrailersNumber()));
-            if (settings.onSecondTrailer) {
+            if (settings.getBoolParameter(SettingsKeys.ON_SECOND_TRAILER)) {
                 parameters.setSecondTrailersNumber(showTrailersDialog("Кол-во вторых анонсов-трейлеров (число >= 1)", parameters.getSecondTrailersNumber()));
             }
         }
         //анонс-плашка
-        if (settings.onAnnouncement) {
+        if (settings.getBoolParameter(SettingsKeys.ON_ANNOUNCEMENT)) {
             try {
                 String announcementName = JOptionPane.showInputDialog(null, "Введите название анонса-плашки", parameters.getAnnouncementName());
                 if (announcementName == null) {
@@ -219,7 +219,7 @@ public class App {
         }
 
         //длительность коммерческой строки
-        if (settings.onPopUpAd) {
+        if (settings.getBoolParameter(SettingsKeys.ON_POP_UP_AD)) {
             try {
                 String commerceDurationInput = JOptionPane.showInputDialog(
                         null,

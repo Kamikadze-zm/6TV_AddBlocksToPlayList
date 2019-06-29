@@ -121,19 +121,19 @@ public class AppTest {
             Parameters p = parameters.get(key);
 
             List<ScheduleProcessor> scheduleProcessors = new ArrayList<>();
-            if (settings.onAdBlocks) {
+            if (settings.getBoolParameter(SettingsKeys.ON_AD_BLOCKS)) {
                 scheduleProcessors.add(new AdBlocksInserter(settings, adBlocks, date, p));
             }
-            if (settings.onNewsAdBlock) {
+            if (settings.getBoolParameter(SettingsKeys.ON_NEWS_AD_BLOCK)) {
                 scheduleProcessors.add(new NewsAdBlocksInserter(settings));
             }
-            if (settings.onTobacco) {
+            if (settings.getBoolParameter(SettingsKeys.ON_TOBACCO)) {
                 scheduleProcessors.add(new TobaccoInserter(settings, p));
             }
-            if (settings.onCrawlLine) {
+            if (settings.getBoolParameter(SettingsKeys.ON_CRAWL_LINE)) {
                 scheduleProcessors.add(new CrawlLineInserter(settings, p, date));
             }
-            if (settings.onAnnouncerNow) {
+            if (settings.getBoolParameter(SettingsKeys.ON_ANNOUNCER_NOW)) {
                 scheduleProcessors.add(new AnnouncerNowInserter(settings, date));
             }
             ScheduleProcessingManager spm = new ScheduleProcessingManager(e.getValue());
