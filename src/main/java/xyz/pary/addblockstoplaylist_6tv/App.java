@@ -1,4 +1,4 @@
-package ru.kamikadze_zm.addblockstoplaylist_6tv;
+package xyz.pary.addblockstoplaylist_6tv;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -20,26 +20,26 @@ import javax.swing.JOptionPane;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import static ru.kamikadze_zm.addblockstoplaylist_6tv.Main.HOME_DIRECTORY;
-import ru.kamikadze_zm.addblockstoplaylistcore.Parameters;
-import ru.kamikadze_zm.addblockstoplaylistcore.adblocks.AdBlocks;
-import ru.kamikadze_zm.addblockstoplaylistcore.adblocks.AdSheetException;
-import ru.kamikadze_zm.addblockstoplaylistcore.adblocks.BlockTime;
-import ru.kamikadze_zm.addblockstoplaylistcore.adblocks.JExcelAdBlocks;
-import ru.kamikadze_zm.addblockstoplaylistcore.adblocks.TimeFormatter;
-import ru.kamikadze_zm.addblockstoplaylistcore.scheduleprocessor.AnnouncerNowInserter;
-import ru.kamikadze_zm.addblockstoplaylistcore.scheduleprocessor.CrawlLineInserter;
-import ru.kamikadze_zm.addblockstoplaylistcore.scheduleprocessor.ScheduleProcessingManager;
-import ru.kamikadze_zm.addblockstoplaylistcore.scheduleprocessor.ScheduleProcessor;
-import ru.kamikadze_zm.addblockstoplaylistcore.scheduleprocessor.TobaccoInserter;
-import ru.kamikadze_zm.addblockstoplaylistcore.scheduleprocessor.adblocks.AdBlocksInserter;
-import ru.kamikadze_zm.addblockstoplaylistcore.scheduleprocessor.adblocks.NewsAdBlocksInserter;
-import ru.kamikadze_zm.addblockstoplaylistcore.settings.Settings;
-import ru.kamikadze_zm.addblockstoplaylistcore.settings.Settings.SettingsKeys;
-import ru.kamikadze_zm.addblockstoplaylistcore.settings.SettingsException;
-import ru.kamikadze_zm.onair.OnAirParserException;
-import ru.kamikadze_zm.onair.Parser;
-import ru.kamikadze_zm.onair.command.Command;
+import static xyz.pary.addblockstoplaylist_6tv.Main.HOME_DIRECTORY;
+import xyz.pary.addblockstoplaylistcore.Parameters;
+import xyz.pary.addblockstoplaylistcore.adblocks.AdBlocks;
+import xyz.pary.addblockstoplaylistcore.adblocks.AdSheetException;
+import xyz.pary.addblockstoplaylistcore.adblocks.BlockTime;
+import xyz.pary.addblockstoplaylistcore.adblocks.JExcelAdBlocks;
+import xyz.pary.addblockstoplaylistcore.adblocks.TimeFormatter;
+import xyz.pary.addblockstoplaylistcore.scheduleprocessor.AnnouncerNowInserter;
+import xyz.pary.addblockstoplaylistcore.scheduleprocessor.CrawlLineInserter;
+import xyz.pary.addblockstoplaylistcore.scheduleprocessor.ScheduleProcessingManager;
+import xyz.pary.addblockstoplaylistcore.scheduleprocessor.ScheduleProcessor;
+import xyz.pary.addblockstoplaylistcore.scheduleprocessor.TobaccoInserter;
+import xyz.pary.addblockstoplaylistcore.scheduleprocessor.adblocks.AdBlocksInserter;
+import xyz.pary.addblockstoplaylistcore.scheduleprocessor.adblocks.NewsAdBlocksInserter;
+import xyz.pary.addblockstoplaylistcore.settings.Settings;
+import xyz.pary.addblockstoplaylistcore.settings.Settings.SettingsKeys;
+import xyz.pary.addblockstoplaylistcore.settings.SettingsException;
+import xyz.pary.onair.OnAirParserException;
+import xyz.pary.onair.Parser;
+import xyz.pary.onair.command.Command;
 
 public class App {
 

@@ -1,4 +1,4 @@
-package ru.kamikadze_zm.addblockstoplaylist_6tv;
+package xyz.pary.addblockstoplaylist_6tv;
 
 import java.io.File;
 import org.apache.logging.log4j.LogManager;
