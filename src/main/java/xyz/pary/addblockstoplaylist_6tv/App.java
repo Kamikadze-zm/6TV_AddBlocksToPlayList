@@ -8,6 +8,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -61,7 +63,22 @@ public class App {
 
     public App() {
         try {
-            settings = new Settings(new File(SETTINGS_FILE));
+            File settingsFile = new File(SETTINGS_FILE);
+            if (!settingsFile.exists()) {
+                JFileChooser fileChooser = new JFileChooser();
+                fileChooser.setDialogTitle("Выберите файл с настройками (в кодировке cp1251) - будет скопирован в " + SETTINGS_FILE);
+                int chooserResult = fileChooser.showOpenDialog(null);
+                if (chooserResult == JFileChooser.APPROVE_OPTION) {
+                    File file = fileChooser.getSelectedFile();
+                    try {
+                        Files.copy(file.toPath(), settingsFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                    } catch (IOException ce) {
+                        LOG.error("Error of copying settings file: ", ce);
+                        showErrorAndExit("Не удалось скопировать файл с настройками");
+                    }
+                }
+            }
+            settings = new Settings(settingsFile);
         } catch (SettingsException e) {
             showErrorAndExit(e.getMessage());
         }
